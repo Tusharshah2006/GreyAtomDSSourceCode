@@ -60,7 +60,6 @@ def get_frwd_pass_features(cols):
         rmse = np.sqrt(mean_squared_error(y_test, y_pred))
         rmseList.append(rmse)
     print(rmseList)
-    
 
 
 # In[85]:
